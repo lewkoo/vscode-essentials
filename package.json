@@ -19,7 +19,8 @@
         "package": "npx vsce package",
         "publish": "npx vsce publish",
         "preinstall-extension": "npm run package",
-        "install-extension": "code --install-extension $(npm ls | head -1 | cut -d@ -f1)-$(npm ls | head -1 | cut -d@ -f2 | cut -d\\  -f1).vsix"
+        "install-extension": "code --install-extension $(npm ls | head -1 | cut -d@ -f1)-$(npm ls | head -1 | cut -d@ -f2 | cut -d\\  -f1).vsix",
+        "deploy": "vsce publish --yarn"
     },
     "extensionPack": [
         "bbenoist.vagrant",
@@ -59,6 +60,11 @@
         "vscoss.vscode-ansible",
         "wayou.vscode-todo-highlight",
         "wingrunr21.vscode-ruby",
-        "yzhang.markdown-all-in-one"
-    ]
+        "yzhang.markdown-all-in-one",
+        "cschleiden.vscode-github-actions",
+        "formulahendry.github-actions"
+    ],
+    "devDependencies": {
+        "vsce": "^1.77.0"
+    }
 }

@@ -11,7 +11,7 @@ npm run install-extension
 Install extensions from the marketplace
 
 ```bash
-code --install-extension levkoivanchuk.vscode-essentials
+code --install-extension **levkoivanchuk**.vscode-essentials
 ```
 
 ## General extensions
@@ -64,7 +64,7 @@ code --install-extension levkoivanchuk.vscode-essentials
 | [PHP]                 | Includes the most important extensions to get you started with PHP development in Visual Studio Code.                                                     |
 | [pug]                 | A Pug/Jade formatter integrated with system formatter                                                                                                     |
 | [Ruby]                | Ruby language support and debugging for Visual Studio Code                                                                                                |
-| [SCSS]                | A Visual Studio Code Extension to format SCSS                                                                                                |
+| [SCSS]                | A Visual Studio Code Extension to format SCSS                                                                                                             |
 
 [DotENV]: https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
 [Jinja]: https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja
@@ -112,8 +112,21 @@ Extensions when working with automation / devops.
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Ansible] | The VSCode ansible extension is designed to increase developer productivity authoring, testing and using Ansible with Azure. The extension provides cool features around playbook authoring and execution. It supports running playbook from various places e.g. Docker, local installation, remote machines via ssh and Cloud Shell. |
 
-
 [Ansible]: https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible
+
+## CI / CD
+
+Extensions when working with CI / CD tools.
+
+| Extension                      | Description                                                                         |
+| ------------------------------ | ----------------------------------------------------------------------------------- |
+| [GitHub Actions]               | See GitHub Actions workflows and runs for github.com hosted repositories in VS Code |
+| [GitHub Actions Workflow File] | Language support for workflow file of GitHub Actions                                |
+
+
+[GitHub Actions]: https://marketplace.visualstudio.com/items?itemName=cschleiden.vscode-github-actions
+[GitHub Actions Workflow File]: https://marketplace.visualstudio.com/items?itemName=formulahendry.github-actions
+
 
 ## Virtualization / Containerization
 
@@ -133,9 +146,9 @@ Extensions when working with VMs / containers.
 
 Extensions when working with databases.
 
-| Extension     | Description                                                                                             |
-| ------------- | ------------------------------------------------------------------------------------------------------- |
-| [SQL Server]      | Develop Microsoft SQL Server, Azure SQL Database and SQL Data Warehouse everywhere.    |
+| Extension    | Description                                                                         |
+| ------------ | ----------------------------------------------------------------------------------- |
+| [SQL Server] | Develop Microsoft SQL Server, Azure SQL Database and SQL Data Warehouse everywhere. |
 
 [SQL Server]: https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql
 
