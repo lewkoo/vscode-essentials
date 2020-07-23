@@ -2,7 +2,7 @@
     "name": "vscode-essentials",
     "displayName": "VSCode Essentials",
     "description": "Custom VS Code extension which wraps my personal settings and typical extensions",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.47.0"
     },
