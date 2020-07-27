@@ -65,6 +65,7 @@ code --install-extension **levkoivanchuk**.vscode-essentials
 | [pug]                 | A Pug/Jade formatter integrated with system formatter                                                                                                     |
 | [Ruby]                | Ruby language support and debugging for Visual Studio Code                                                                                                |
 | [SCSS]                | A Visual Studio Code Extension to format SCSS                                                                                                             |
+| [RST]                 | This extension provides rich reStructuredText language support for Visual Studio Code.                                                                    |
 
 [DotENV]: https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
 [Jinja]: https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja
@@ -83,6 +84,7 @@ code --install-extension **levkoivanchuk**.vscode-essentials
 [pug]: https://marketplace.visualstudio.com/items?itemName=ducfilan.pug-formatter
 [Ruby]: https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby
 [SCSS]: https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter
+[RST]: https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext
 
 ## AI-assisted development
 

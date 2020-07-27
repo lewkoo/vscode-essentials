@@ -62,7 +62,8 @@
         "wingrunr21.vscode-ruby",
         "yzhang.markdown-all-in-one",
         "cschleiden.vscode-github-actions",
-        "formulahendry.github-actions"
+        "formulahendry.github-actions",
+        "lextudio.restructuredtext"
     ],
     "devDependencies": {
         "vsce": "^1.77.0"
